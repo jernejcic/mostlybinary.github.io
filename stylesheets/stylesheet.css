@@ -159,6 +159,10 @@ blockquote {
   border-left: 1px dotted #666;
 }
 
+em {
+	color: #2B85E0;
+}
+
 p {
 	margin: 5px 0 20px;
 }
