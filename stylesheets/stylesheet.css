@@ -4,7 +4,7 @@ body {
   /* background: #151515 url("../images/bkg.png") 0 0; */
   background: rgba(0, 0, 0, 0.3);
   color: #eaeaea;
-  font: 12px;
+  font-size: 14px;
   line-height: 1.25;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
@@ -23,7 +23,7 @@ section {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 20px;
+  margin: 0 0 0px;
 }
 
 li {
@@ -157,6 +157,10 @@ blockquote {
   color: #aaa;
   padding-left: 10px;
   border-left: 1px dotted #666;
+}
+
+p {
+	margin: 5px 0 20px;
 }
 
 pre {
