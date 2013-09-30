@@ -6,7 +6,7 @@ body {
   color: #eaeaea;
   font-size: 14px;
   line-height: 1.25;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: HelveticaNeue-Light, Verdana;
 }
 
 /* General & 'Reset' Stuff */
@@ -100,9 +100,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #FA6623;
   letter-spacing: -0.03em;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+  /* text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
+               0 0 10px rgba(181, 232, 83, 0.1); */
 }
 
 #main_content h1 {
@@ -246,7 +246,7 @@ hr {
 
 a {
   color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  /* text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); */
 }
 
 /* Clearfix */
@@ -263,3 +263,49 @@ a {
 .cf {
   zoom:1;
 }
+
+/* LIGHT THEME */
+body.csqThemeLight {
+	background: #f5f5f5;
+	color: #029DCC;
+}
+
+body.csqThemeLight a {
+	color: #029DCC;
+}
+
+body.csqThemeLight h1, body.csqThemeLight h2, body.csqThemeLight h3, body.csqThemeLight h4, body.csqThemeLight h5, body.csqThemeLight h6 {
+	color: #FA6623;
+	
+}
+
+body.csqThemeLight header, body.csqThemeLight section {
+	border-bottom-color: #FA6623;
+}
+
+
+/* DARK THEME */
+
+body.csqThemeDark {
+	background: #313131;
+	color: #ECECEC;
+}
+
+body.csqThemeDark a {
+	color: #00B9F5;
+}
+
+body.csqThemeDark ul li:before {
+	color: #ECECEC;
+}
+
+body.csqThemeDark h1, body.csqThemeDark h2, body.csqThemeDark h3, body.csqThemeDark h4, body.csqThemeDark h5, body.csqThemeDark h6 {
+	color: #FF3F38;
+	
+}
+
+body.csqThemeDark header, body.csqThemeDark section {
+	border-bottom-color: #9B3933;
+}
+
+
