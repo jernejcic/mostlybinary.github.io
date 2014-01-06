@@ -308,3 +308,27 @@ body.csqThemeDark header, body.csqThemeDark section {
 }
 
 
+/* TERMINAL THEME */
+
+body.csqThemeTerminal {
+	background: #313131;
+	color: #ECECEC;
+}
+
+body.csqThemeTerminal a {
+	color: #00B9F5;
+}
+
+body.csqThemeTerminal ul li:before {
+	color: #ECECEC;
+}
+
+body.csqThemeTerminal h1, body.csqThemeTerminal h2, body.csqThemeTerminal h3, body.csqThemeTerminal h4, body.csqThemeTerminal h5, body.csqThemeTerminal h6 {
+	color: #FF3F38;
+}
+
+body.csqThemeTerminal header, body.csqThemeTerminal section {
+	border-bottom-color: #9B3933;
+}
+
+
