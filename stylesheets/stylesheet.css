@@ -311,8 +311,8 @@ body.csqThemeDark header, body.csqThemeDark section {
 /* TERMINAL THEME */
 
 body.csqThemeTerminal {
-	background: #313131;
-	color: #ECECEC;
+	background: #111111;
+	color: #00FD56;
 }
 
 body.csqThemeTerminal a {
